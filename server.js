@@ -11,7 +11,7 @@ app.use(compression());
 
 app.use('/', express.static(__dirname + '/public', {maxAge: oneDay}));
 
-var port = 80;//process.env.OPENSHIFT_NODEJS_PORT || 8000;
+var port = 8108;//process.env.OPENSHIFT_NODEJS_PORT || 8000;
 
 app.listen(port, function() {//, ipadress, function() {
   console.log(`Application worker ${process.pid} started...`);
