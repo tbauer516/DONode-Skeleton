@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "latest",
-    "http-proxy": "latest",
+    "http-master": "latest",
     "compression": "latest"
   },
   "main": "start.js",
