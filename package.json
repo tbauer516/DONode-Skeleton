@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "express": "latest",
-    "http-master": "latest",
     "compression": "latest"
   },
   "main": "start.js",
